@@ -1,0 +1,36 @@
+body{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header, footer{
+    background-color: lightblue;
+}
+
+.site-title{
+    text-align: center; 
+    font-size: 20pt;
+    color:red;
+}
+
+.site-title > a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px solid red;
+}
+
+.site-title a:hover{
+  background-color: red;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li:nth-child(odd){
+    background-color:paleturquoise;
+}
